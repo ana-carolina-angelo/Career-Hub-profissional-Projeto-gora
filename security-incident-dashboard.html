@@ -1,1 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Security Incident Intelligence Dashboard | Ana Carolina Angelo</title>
+
+    <meta name="description"
+        content="Projeto de análise de incidentes de Segurança da Informação desenvolvido em Power BI.">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #07111f;
+            color: #f5f7fa;
+            line-height: 1.7;
+        }
+
+        .container {
+            width: min(1100px, 90%);
+            margin: 0 auto;
+        }
+
+        header {
+            padding: 70px 0 50px;
+        }
+
+        .tag {
+            display: inline-block;
+            font-size: 12px;
+            letter-spacing: 1.5px;
+            color: #6fc3ff;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: clamp(38px, 6vw, 64px);
+            line-height: 1.1;
+            margin: 0 0 20px;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-top: 0;
+        }
+
+        .lead {
+            font-size: 20px;
+            color: #c7d2df;
+            max-width: 850px;
+        }
+
+        section {
+            padding: 55px 0;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 28px;
+            margin-top: 25px;
+        }
+
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 18px;
+        }
+
+        .metric strong {
+            display: block;
+            font-size: 34px;
+            margin-bottom: 5px;
+        }
+
+        .metric span {
+            color: #b8c4d1;
+            font-size: 14px;
+        }
+
+        .dashboard {
+            width: 100%;
+            border-radius: 16px;
+            margin-top: 25px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 40px;
+            color: #6fc3ff;
+            text-decoration: none;
+        }
+
+        footer {
+            padding: 40px 0;
+            color: #8e9aaa;
+            font-size: 13px;
+        }
+
+        @media (max-width: 800px) {
+            .metrics {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 500px) {
+            .metrics {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+
+            <span class="tag">PROJETO · CYBERSECURITY + DATA</span>
+
+            <h1>Security Incident<br>Intelligence Dashboard</h1>
+
+            <p class="lead">
+                Transformando dados de incidentes de Segurança da Informação
+                em informações para análise, priorização e tomada de decisão.
+            </p>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <section>
+            <div class="container">
+
+                <h2>Contexto</h2>
+
+                <p>
+                    Organizações enfrentam diariamente um volume crescente
+                    de incidentes de segurança. Nesse cenário, transformar
+                    dados operacionais em informações estruturadas pode apoiar
+                    a priorização, a resposta e a mitigação de riscos.
+                </p>
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+
+                <h2>O desafio</h2>
+
+                <div class="card">
+
+                    <p>
+                        Como transformar registros de incidentes em uma visão
+                        integrada capaz de apoiar decisões de Segurança da
+                        Informação e gestão de riscos?
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+
+                <h2>A solução</h2>
+
+                <p>
+                    Foi desenvolvido um dashboard analítico em Power BI,
+                    utilizando uma base fictícia de 200 incidentes,
+                    estruturada para simular um ambiente corporativo
+                    de gestão de incidentes.
+                </p>
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+
+                <h2>Indicadores</h2>
+
+                <div class="metrics">
+
+                    <div class="card metric">
+                        <strong>200</strong>
+                        <span>Incidentes analisados</span>
+                    </div>
+
+                    <div class="card metric">
+                        <strong>51,5%</strong>
+                        <span>SLA violado</span>
+                    </div>
+
+                    <div class="card metric">
+                        <strong>5</strong>
+                        <span>Principais categorias</span>
+                    </div>
+
+                    <div class="card metric">
+                        <strong>Jan–Mar/2025</strong>
+                        <span>Período analisado</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+
+                <h2>Principais insights</h2>
+
+                <div class="card">
+
+                    <p>
+                        Malware, DDoS e Ransomware aparecem entre as categorias
+                        com maior volume de registros.
+                    </p>
+
+                    <p>
+                        O índice de 51,5% de SLA violado indica uma oportunidade
+                        de análise dos processos de resposta, priorização e
+                        capacidade operacional.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+
+                <h2>Visão de negócio</h2>
+
+                <p>
+                    O dashboard demonstra como dados de Segurança da Informação
+                    podem apoiar decisões relacionadas à priorização de
+                    incidentes, desempenho operacional e gestão de riscos.
+                </p>
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+
+                <h2>Aprendizado</h2>
+
+                <p>
+                    O projeto permitiu aplicar conceitos de análise de dados,
+                    visualização, indicadores de segurança e interpretação
+                    orientada à tomada de decisão.
+                </p>
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+
+                <h2>Evidência</h2>
+
+                <img
+                    class="dashboard"
+                    src="dashboard-incidentes.png"
+                    alt="Dashboard de Incidentes de Segurança desenvolvido em Power BI">
+
+                <p>
+                    Dashboard desenvolvido em Power BI para análise de
+                    incidentes de Segurança da Informação.
+                </p>
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+
+                <h2>Transparência</h2>
+
+                <div class="card">
+
+                    <p>
+                        A base utilizada neste projeto é fictícia e foi
+                        desenvolvida exclusivamente para fins educacionais
+                        e de portfólio profissional.
+                    </p>
+
+                    <p>
+                        O projeto não contém dados reais ou informações
+                        confidenciais.
+                    </p>
+
+                </div>
+
+                <a class="back" href="index.html">
+                    ← Voltar para o Orion
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="container">
+            ORION · ANA CAROLINA ANGELO
+        </div>
+    </footer>
+
+</body>
+</html>
