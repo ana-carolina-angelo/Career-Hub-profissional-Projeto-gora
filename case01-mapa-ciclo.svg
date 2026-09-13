@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<rect width="1200" height="330" rx="22" fill="#071321"/>
+<rect x="1" y="1" width="1198" height="328" rx="21" fill="none" stroke="#24445f"/>
+<text x="48" y="55" fill="#2d8cff" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="2">VISÃO EXECUTIVA · CASE #01</text>
+<text x="48" y="91" fill="#f4f7fb" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700">A lógica da decisão</text>
+<text x="48" y="119" fill="#a9b8c8" font-family="Inter,Arial,sans-serif" font-size="15">O agente recomenda. O humano decide. A autonomia depende de evidências.</text>
+<g font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+  <rect x="40" y="160" width="140" height="72" rx="12" fill="#0a1d31" stroke="#31506d"/><text x="110" y="190" fill="#fff">Problema</text><text x="110" y="212" fill="#a9b8c8" font-size="11">de negócio</text>
+  <rect x="220" y="160" width="140" height="72" rx="12" fill="#0a1d31" stroke="#31506d"/><text x="290" y="190" fill="#fff">Finalidade</text><text x="290" y="212" fill="#a9b8c8" font-size="11">resultado esperado</text>
+  <rect x="400" y="160" width="140" height="72" rx="12" fill="#0a1d31" stroke="#31506d"/><text x="470" y="190" fill="#fff">Dados</text><text x="470" y="212" fill="#a9b8c8" font-size="11">necessários</text>
+  <rect x="580" y="160" width="140" height="72" rx="12" fill="#0a1d31" stroke="#31506d"/><text x="650" y="190" fill="#fff">Agente</text><text x="650" y="212" fill="#a9b8c8" font-size="11">escopo definido</text>
+  <rect x="760" y="160" width="140" height="72" rx="12" fill="#0a1d31" stroke="#31506d"/><text x="830" y="190" fill="#fff">Resultado</text><text x="830" y="212" fill="#a9b8c8" font-size="11">valor + risco</text>
+  <rect x="940" y="160" width="220" height="72" rx="12" fill="#0d1f35" stroke="#66aaff"/><text x="1050" y="190" fill="#fff">Governança</text><text x="1050" y="212" fill="#a9b8c8" font-size="11">monitorar · medir · reavaliar</text>
+</g>
+<g stroke="#72b4ff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M181 196h32l-9-7m9 7-9 7"/><path d="M361 196h32l-9-7m9 7-9 7"/><path d="M541 196h32l-9-7m9 7-9 7"/><path d="M721 196h32l-9-7m9 7-9 7"/><path d="M901 196h32l-9-7m9 7-9 7"/></g>
+<text x="600" y="286" fill="#d4deea" font-family="Inter,Arial,sans-serif" font-size="14" text-anchor="middle">Planejar → Executar → Controlar → Avaliar → Evoluir</text>
+</svg>
