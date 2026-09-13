@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="390" viewBox="0 0 1100 390">
+<rect width="1100" height="390" rx="22" fill="#071321"/><rect x="1" y="1" width="1098" height="388" rx="21" fill="none" stroke="#24445f"/>
+<text x="42" y="50" fill="#2d8cff" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="800" letter-spacing="2">DECISÃO · AUTONOMY GATE</text>
+<text x="42" y="82" fill="#f4f7fb" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Autonomia aumenta somente quando as evidências justificam.</text>
+<rect x="410" y="108" width="280" height="58" rx="12" fill="#0d2035" stroke="#66aaff"/><text x="550" y="143" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">EVIDÊNCIAS → GATE</text>
+<g font-family="Inter,Arial,sans-serif" text-anchor="middle">
+ <rect x="55" y="205" width="300" height="115" rx="15" fill="#0a111b" stroke="#7f1d1d"/><text x="205" y="240" fill="#fca5a5" font-size="19" font-weight="800">GATE FECHADO</text><text x="205" y="266" fill="#d4deea" font-size="12">Evidências insuficientes.</text><text x="205" y="287" fill="#a9b8c8" font-size="11">Manter autonomia e reforçar controles.</text>
+ <rect x="400" y="205" width="300" height="115" rx="15" fill="#0f160d" stroke="#854d0e"/><text x="550" y="240" fill="#fcd34d" font-size="19" font-weight="800">GATE EM AVALIAÇÃO</text><text x="550" y="266" fill="#d4deea" font-size="12">Há hipótese de benefício.</text><text x="550" y="287" fill="#a9b8c8" font-size="11">Testar, pilotar e reavaliar evidências.</text>
+ <rect x="745" y="205" width="300" height="115" rx="15" fill="#0b170f" stroke="#166534"/><text x="895" y="240" fill="#86efac" font-size="19" font-weight="800">GATE ABERTO</text><text x="895" y="266" fill="#d4deea" font-size="12">Evidências suficientes.</text><text x="895" y="287" fill="#a9b8c8" font-size="11">Expandir gradualmente, monitorando.</text>
+</g>
+<g stroke="#72b4ff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M550 166v30"/><path d="M550 196L205 196v9"/><path d="M550 196v9"/><path d="M550 196l345 0v9"/></g>
+<text x="550" y="356" fill="#d4deea" font-family="Inter,Arial,sans-serif" font-size="14" text-anchor="middle">Aumentar · Manter · Reduzir autonomia, conforme evidências e contexto.</text>
+</svg>
